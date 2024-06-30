@@ -3,15 +3,35 @@ body {
   background-color: #f0f0f0;
   margin: 0;
   padding: 0;
+  text-align: center;
 }
 
 h1 {
   color: #333;
 }
-#result .green {
+
+p {
+  font-size: 25px;
+}
+#result {
   color: #2ecc71;
+  font-weight: bold;
+  font-size: 30px;
+  padding: 20px;
 }
 
 #result .red {
   color: #e74c3c;
+}
+
+button {
+  background-color: #333333e1;
+  color: #2ecc71;
+  font-size: 20px;
+  padding: 10px;
+}
+
+#userInput {
+  font-size: 20PX;
+  border: solid 2px #333;
 }
